@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: 07255622fd6cbad4aa43b2d28c862633
+timeCreated: 1478641952
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ChargerBase
+    100004: ChargerCylinder
+    100006: Docker
+    100008: GunnerBarrel
+    100010: GunnerPipeSleve
+    100012: Hatch
+    100014: PulleyWheel
+    100016: PulleyWheel1
+    100018: Reciever
+    100020: ScrrewStick
+    100022: ScrrewStick1
+    100024: ScrrewStick2
+    100026: ScrrewStick3
+    100028: transform1
+    100030: transform2
+    100032: transform3
+    100034: TravelBall
+    400000: //RootNode
+    400002: ChargerBase
+    400004: ChargerCylinder
+    400006: Docker
+    400008: GunnerBarrel
+    400010: GunnerPipeSleve
+    400012: Hatch
+    400014: PulleyWheel
+    400016: PulleyWheel1
+    400018: Reciever
+    400020: ScrrewStick
+    400022: ScrrewStick1
+    400024: ScrrewStick2
+    400026: ScrrewStick3
+    400028: transform1
+    400030: transform2
+    400032: transform3
+    400034: TravelBall
+    2300000: ChargerBase
+    2300002: ChargerCylinder
+    2300004: Docker
+    2300006: GunnerBarrel
+    2300008: GunnerPipeSleve
+    2300010: Hatch
+    2300012: PulleyWheel
+    2300014: PulleyWheel1
+    2300016: Reciever
+    2300018: ScrrewStick3
+    2300020: TravelBall
+    3300000: ChargerBase
+    3300002: ChargerCylinder
+    3300004: Docker
+    3300006: GunnerBarrel
+    3300008: GunnerPipeSleve
+    3300010: Hatch
+    3300012: PulleyWheel
+    3300014: PulleyWheel1
+    3300016: Reciever
+    3300018: ScrrewStick3
+    3300020: TravelBall
+    4300000: Docker
+    4300002: ScrrewStick3
+    4300004: Reciever
+    4300006: TravelBall
+    4300008: GunnerPipeSleve
+    4300010: GunnerBarrel
+    4300012: ChargerBase
+    4300014: PulleyWheel
+    4300016: ChargerCylinder
+    4300018: PulleyWheel1
+    4300020: Hatch
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 50
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
