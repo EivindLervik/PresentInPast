@@ -74,6 +74,17 @@ ModelImporter:
     4300016: ChargerCylinder
     4300018: PulleyWheel1
     4300020: Hatch
+    6400000: ChargerBase
+    6400002: ChargerCylinder
+    6400004: Docker
+    6400006: GunnerBarrel
+    6400008: GunnerPipeSleve
+    6400010: Hatch
+    6400012: PulleyWheel
+    6400014: PulleyWheel1
+    6400016: Reciever
+    6400018: ScrrewStick3
+    6400020: TravelBall
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -101,7 +112,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 50
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

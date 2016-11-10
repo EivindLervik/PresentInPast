@@ -4,6 +4,7 @@ using System.Collections;
 public class CharacterMove : MonoBehaviour {
 
     public Transform targetCamera;
+    public Transform character;
 
     public float maxMoveSpeed;
     public float acceleration;
@@ -22,19 +23,35 @@ public class CharacterMove : MonoBehaviour {
 
     void FixedUpdate()
     {
+        /**
+            Forces
+        **/
         Vector3 appliedForce = new Vector3();
 
         appliedForce += moveDirection.z * targetCamera.forward;
         appliedForce += moveDirection.x * targetCamera.right;
-        print(targetCamera.forward + " - " + targetCamera.right);
-        //Vector3.
 
+        Vector3 nyBrems = body.velocity;
+        nyBrems.x /= (deacceleration * Time.fixedDeltaTime);
+        nyBrems.z /= (deacceleration * Time.fixedDeltaTime);
+        body.velocity = nyBrems;
         if (appliedForce != Vector3.zero)
         {
             body.AddForce(appliedForce * acceleration * Time.fixedDeltaTime);
         }
 
-        
+
+
+
+        /**
+            Facing-direction
+        **/
+        Vector3 nyFram = body.velocity;
+        nyFram.y = 0.0f;
+        if(nyFram != Vector3.zero)
+        {
+            character.forward = nyFram;
+        }
     }
 
     public void UpdateMoveDirection(Vector3 dir)
